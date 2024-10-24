@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚩धर्मस्थान</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>भगवत नाम जप कर!</h1>
+    
+    </header>
+
+    <main>
+        <section id="content">
+            <h2>नाम जप स्थान पर आपका स्वागत है! </h2>
+            <p>give acces of your mic and Start your spiritual journey </p>
+            <button id="startBtn" onclick="startRecognition()">Start Chanting</button>
+            <button id="stopBtn" onclick="stopRecognition()" disabled>Stop Chanting</button>
+            <p> राम : <span id="ramCount">0</span></p>
+            <p> कृष्ण : <span id="krishnaCount">0</span></p>
+            <p> राधा : <span id="radhaCount">0</span></p>
+            <p id="blessingMessage"></p>
+            <p id="errorMessage"></p> <!-- For error message if the API doesn't work -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; जय श्री राधेकृष्ण 🚩🦚🧿</p>
+    </footer>
+ 
+
+    <script src="script.js"></script>
+</body>
+</html>
+

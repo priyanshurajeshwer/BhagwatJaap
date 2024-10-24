@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #f88f06;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #abb9ac;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    padding: 10px 20px; /* Add some padding */
+    background-color:#e66a04; /* Background color */
+    color: white
+    border: none;
+    cursor: pointer; /* Change cursor on hover */
+    margin: 5px;
+}
+button:disabled:hover {
+    background-color: #e66a04; /* Change background on hover */
+    transform: scale(1.1); /* Scale effect on hover */
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#blessingMessage {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#errorMessage {
+    color: red;
+    margin-top: 15px;
+}
